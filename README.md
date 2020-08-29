@@ -33,3 +33,10 @@ Soon after launching the mining process, you'll need to grab the enode displayed
 Open a new terminal window and run the following command: "./geth --datadir node2 --port 30304 --rpc --bootnodes "enode://<replace with node1 enode address>"
 Your command should look something like this: ![examplenode2command](screens/examplenode2.png)
 And should render something that looks like this: ![examplenode2output](screens/step9.png)
+## Step 10: Status Check
+At this point, with both terminals open you should have a process running that appears similar to this ![blockchainrunning](screens/example1.png), with the left window mining new blocks and the right window recording the blocks
+## Step 11: MyCrypto Creation
+In the MyCrypto UI you'll then create a new coin ![new coin](screens/step11.png)
+
+With evidence of your new coin situated in left nav bar as follows: ![visual](screens/step12.png)
+
