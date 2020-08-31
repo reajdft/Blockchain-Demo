@@ -11,9 +11,9 @@ And lastly, assign your wallet to the blockchain to populate test currency found
 ## Step 4: Chain ID
 Assign a Chain ID (must be an integer) and record in your text file for access later![CID](screens/chainid.png)
 ## Step 5: Genesis Configuration
-Congrats, we got this bitch configured!![Genesis](screens/genesisconfig.png)
-## Step 6: Let's Mine this KDOAG!
-Just kidding, we'll actually just create our mining node (Node 1) using this command: ./geth account new --datadir node1![Node1](screens/node1.png)
+Congrats, we got this coin configured!![Genesis](screens/genesisconfig.png)
+## Step 6: Node creation
+Create our mining node (Node 1) using this command: ./geth account new --datadir node1![Node1](screens/node1.png)
 
 And next we'll do the same for our ledger node (Node 2) using this command ./geth account new --datadir node2
 
